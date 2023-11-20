@@ -14,7 +14,7 @@ import com.vkakarla.springboot.soap.interfaces.clients.*;
 @Endpoint
 public class ClientEndpoint {
 
-	private static final String NAMESPACE_URI = "http://interfaces.soap.springboot.vkakarla.com";
+	private static final String NAMESPACE_URI = "http://interfaces.soap.springboot.api.com";
 
 	@Autowired
 	private ClientService clientService;
